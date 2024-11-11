@@ -1,0 +1,17 @@
+python run_open.py \
+  --model "/data/hzf/LLaMA-Factory/models/qwen2.5-1.5b_math_all_lora_sft_1" \
+  --shots 0 \
+  --stem_flan_type cot \
+  --dataset math \
+  --model_max_length 4096 \
+  --cot_backup \
+  --print 
+
+  python run_open.py \
+  --model "/data/hzf/LLaMA-Factory/models/qwen2.5-1.5b_math_all_lora_sft_1" \
+  --shots 0 \
+  --stem_flan_type cot \
+  --dataset gsm8k \
+  --model_max_length 4096 \
+  --cot_backup \
+  --print 
