@@ -14,4 +14,4 @@ llamafactory-cli chat /data/hzf/LLaMA-Factory/examples/inference/qwen_2.5_math.y
   合并：
   llamafactory-cli export /data/hzf/LLaMA-Factory/examples/merge_lora/math.yaml
   评估：
-  python /data/hzf/MAmmoTH/math_eval/run_open.py  --model "models/qwen2.5-1.5b_math_all_filtered" --shots 0 --stem_flan_type cot --dataset math --model_max_length 4096  --cot_backup --print
+  python /data/hzf/MAmmoTH/math_eval/run_open.py  --model "models/qwen2.5-1.5b_math_all_filtered" --shots 0 --stem_flan_type cot --dataset gsm8k --model_max_length 4096  --cot_backup --print
